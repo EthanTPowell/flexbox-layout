@@ -1,0 +1,30 @@
+.hf{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    width: 100vw;
+    
+}
+.box{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.left{
+    width: 300px;
+    background-color: burlywood;
+    height: 70vh;
+}
+.right{
+    display: flex;
+    background-color: green;
+    flex: 1;
+    height: 70vh;
+    justify-content: center;
+}
+body{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: steelblue;
+}
